@@ -4,10 +4,11 @@
     --second-color: #757575;
     --accent-color: #2196F3;
     --extra-white-color: #FFFFFF;
-    --background-color: #F5F5F5; 
+    --background-color: #FFFFFF; 
     --background-section-color: #2F303A;
     --accent-black-color: #000000;
     --background-second-color: #F5F4FA;
+    --button-second-color: #F5F4FA;
 }
 
 .body {
@@ -87,7 +88,6 @@
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--extra-white-color);
@@ -96,17 +96,15 @@
 .hero-button {
     background-color: var(--accent-color);
     font-weight: 700;
+    font-size: 16px;
     line-height: calc(30/16);
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--extra-white-color);
     font-family: inherit;
 }
 
 .hero-button:hover, .hero-button:focus {
-    background-color: var(--background-second-color);
+    background-color: var(--button-second-color);
     color: var(--main-color);
 }
 
@@ -191,7 +189,11 @@
 /* portfolio styles */
  
 .projects-button {
-    background-color: var (--background-second-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+    background-color: var(--button-second-color);
     color: var(--main-color);
     font-family: inherit;
 }
